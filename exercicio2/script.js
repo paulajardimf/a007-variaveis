@@ -1,7 +1,12 @@
-corAzul = prompt("Você está usando alguma peça de roupa com a cor azul?");
+let pergunta1 = "Você está usando alguma peça de roupa com a cor azul?";
+let resposta1 = prompt(pergunta1);
 
-corBranco = prompt("Você está usando alguma peça de roupa com a cor branco?");
+let pergunta2 = "Você está usando alguma peça de roupa com a cor branco?";
+let resposta2 = prompt(pergunta2);
 
-corPreto = prompt("Você está usando alguma peça de roupa com a cor preto?");
+let pergunta3 = "Você está usando alguma peça de roupa com a cor preto?";
+let resposta3 = prompt(pergunta3);
 
-console.log(corAzul, corBranco, corPreto);
+console.log(pergunta1, resposta1);
+console.log(pergunta2, resposta2);
+console.log(pergunta3, resposta3);
